@@ -18,7 +18,7 @@
 //= require jquery.turbolinks
 //= require masonry/jquery.masonry
 //= require bootstrap-sprockets
-
+//= require_tree .
 
 
 

@@ -1,9 +1,17 @@
-
-$navbar-default-brand-color:blue;
-$navbar-bg: red;
-$body-bg: #3498db;
-$text-color: #16a085;
-$jumbotron-bg:#95a5a6 ;
+$footer-default-bg:blue;
+$padding-top: 60px;
+$navbar-default-bg: #40FF00;
+$navbar-default-link-color:#FF0080;
+$body-bg: #FF0080;
+$text-color: #40FF00;
+$jumbotron-bg:#8904B1 ;
 $btn-primary-color:#c0392b;
+$containereins-color: blue;
+$footer-height: 20 px;
+$footer: yellow;
+
+
+
 @import 'bootstrap-sprockets' ;
 @import 'bootstrap';
+@import 'style.css'
