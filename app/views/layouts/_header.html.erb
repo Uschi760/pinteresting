@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-static-top navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -9,17 +9,16 @@
         <span class="icon-bar"></span>
       </button>
      
-     
-  <span class="glyphicon glyphicon-glass" aria-hidden="true"></span><a class="navbar-brand" href="#">Cocktails und mehr</a>
+     <%= link_to "Cocktails und mehr" , root_path, class: "navbar-brand"%><span class="glyphicon glyphicon-glass" aria-hidden="true">
+  </span>
 </button>
     </div>
  
     <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "ZuHause", root_path %></li>
         <li><%= link_to "UnterUns", about_path %></li>
-          </ul>
-        </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

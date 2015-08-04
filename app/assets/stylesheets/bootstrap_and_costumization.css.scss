@@ -1,17 +1,25 @@
-$footer-default-bg:blue;
-$padding-top: 60px;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+$font-family: 'Open Sans', sans-serif; 
+$body-bg:      #FF0080;
+$navbar-height: 45px;
 $navbar-default-bg: #40FF00;
 $navbar-default-link-color:#FF0080;
-$body-bg: #FF0080;
+$brand-primary:#FF8000;
+$btn-primary-color: #c0392b;
 $text-color: #40FF00;
-$jumbotron-bg:#8904B1 ;
-$btn-primary-color:#c0392b;
-$containereins-color: blue;
-$footer-height: 20 px;
-$footer: yellow;
-
-
+$jumbotron-bg: #8904B1 ;
+$footer-height: 45px;
+$footer-color: #BDBDBD;
+$footer-padding-top: 60px;
 
 @import 'bootstrap-sprockets' ;
 @import 'bootstrap';
-@import 'style.css'
+@import 'style.css' ;
+
+.jumbotron {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
