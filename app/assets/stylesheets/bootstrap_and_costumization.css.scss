@@ -12,8 +12,9 @@ $footer-height: 45px;
 $footer-color: #BDBDBD;
 $footer-padding-top: 60px;
 
-@import 'bootstrap-sprockets' ;
+
 @import 'bootstrap';
+@import 'bootstrap-sprockets' ;
 @import 'style.css' ;
 
 .jumbotron {
