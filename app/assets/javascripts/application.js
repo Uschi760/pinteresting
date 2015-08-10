@@ -11,14 +11,13 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-
+//= require bootstrap
+//= require bootstrap-sprockets
+//= require jquery.turbolinks
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require jquery.turbolinks
 //= require masonry/jquery.masonry
-//= require bootstrap
-//= require bootstrap-sprockets
 
 
 
